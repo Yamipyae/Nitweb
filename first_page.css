@@ -1,0 +1,477 @@
+
+.first-title{
+    flex-wrap: wrap;
+    background-color: white;
+    height: 410px;
+    border-radius: 100px;
+    width: 100%;
+    cursor: url("inosukeicon.png"),auto;
+}
+@media(max-width:800px){
+    .first-title{
+        flex: 100%;
+        height: 930px;
+    }
+}
+
+
+.head_title{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 70px;
+    font-weight: bold; 
+    flex-wrap:wrap ;  
+}
+
+.first_page{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    margin-top: 40px;
+    height: 300px;
+    
+}
+@media(max-width:800px){
+ .first-part{
+    flex: 100%;
+    height: 100%;
+ }
+ 
+}
+.text ,.k10 ,.r-text{
+    font-weight: bold;
+}
+.r-text{
+    left: 50%;
+}
+.left_session{
+    width: 330px;
+    height: 200px;
+    flex: 1;
+    padding-left: 30px;
+}
+
+.middle_session{
+    width: 480px;
+    height: 280px;
+   background-color: yellow; 
+   border-radius: 300px;
+   flex:1;
+   
+}
+
+.inosuke{
+    margin-top: -55px;
+   left: 3%;
+   right: 50%;
+    width: 370px;
+    height: 370px;
+    position: relative;
+    align-items: center;
+}
+
+.right_session{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex: 1;
+    justify-content: flex-start left;
+    flex-direction: column;
+    margin-right: 30px;
+    
+}
+.ino-rate{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+.star{
+    margin-left: 50%;
+    margin-bottom: 15px;
+    cursor: pointer;
+    right: 0;
+    flex: 1;
+}
+
+.profile{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items:center;
+}
+.p-text,.p-img{
+    margin-right: 10px;
+    
+}
+.order{
+    font-family: monospace;
+    font-weight: lighter;
+}
+.ino{
+    height: 40px;
+    width: 40px;
+}
+.second-page{
+    height: 500px;
+    color: white;
+}
+@media(max-width:800px){
+    .second-page{
+        flex: 100%;
+        height: 100%;
+    }
+}
+.first-part{
+    flex: 1;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.text-part{
+    width: 550px;
+    height: 250px;
+    margin-left: 50px;
+}
+.text-part1{
+    margin-top: 20px;
+    width:350px ;
+}
+.text-part2{
+    margin-top: 30px;
+    width: 500px;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+@media(max-width:800px){
+    .text-part2{
+        width: 350px;
+    }
+}
+.item2{
+    flex:1;
+    font-size: 12px;
+    margin-left: 5px;
+}
+.card-part{
+    margin-right: auto;
+    justify-content: end;
+    flex: 1;
+}
+@media(max-width:800px){
+    .card-part{
+        flex: 100%;
+        height: 600px;
+        width: 100%;
+    }
+}
+
+
+.container {
+    display: flex;
+    overflow-x:scroll ;
+    padding: 24px;
+    width: 400px;
+    height: 250px;
+    scroll-snap-type: x mandatory;
+    scroll-padding:24px;
+    border-radius: 8px;
+    gap: 12px;
+    margin: 2rem auto;
+}
+.container .item {
+    flex:0 0 80%;
+    padding: 24px;
+    border: 1px solid #ffff;
+    border-radius: 8px;
+    scroll-snap-align:end;
+    filter: drop-shadow(0 0 10px rgb(41, 5, 242));
+}
+.item{
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+.khant{
+    font-weight: bold;
+    font-size: 15px;
+    width: 170px;
+}
+.photo{
+ width: 100px;
+ height: 100px;
+ border-radius: 50%;
+ margin-right: 10px;
+}
+.rating{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: rgb(73, 63, 63);
+    width: 800px;
+    margin-top: 20px;
+    height: 100px;
+    border-radius: 70px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+@media(max-width:800px){
+    .rating{
+        width: 100%; 
+        margin-left: 0;      
+    }
+}
+.rate{
+   margin-right: auto;
+    margin-left: auto;
+}
+
+.cls{
+    color: yellow;
+}
+.third-page{
+   
+    background-color: white;
+    border-radius: 100px;
+    height: 800px;
+    flex-wrap: wrap;
+    cursor: url("mentor.png"),auto;
+}
+@media(max-width:800px){
+    .third-page{
+        height: 100%;
+        width: 100%;
+        flex: 100%;
+        
+    }
+}
+.third-title{
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    width: auto;
+}
+
+.mentors{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 870px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    
+}
+@media(max-width:800px){
+    .mentors{
+        flex-wrap: wrap;
+        margin-left: 0;
+    }
+}
+
+.container1 {
+   
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container1 .card {
+    position: relative;
+    width: 400px;
+    height: 180px;
+    margin: 20px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   background-color:rgba(71, 60, 64, 1);
+   border: 2px solid gold;
+}
+.container1 .card img{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.5s;
+    width: 141.3px;
+    height: 194px;
+}
+.container1 .card:hover img{
+    left: 75%;
+    width: 169.5px;
+    height: 233px;
+}
+.container1 .card .pyae{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.5s;
+    width: 164.3px;
+    height: 194px;
+}
+.container1 .card:hover .pyae{
+    left: 75%;
+    width: 200.5px;
+    height: 233px;
+}
+.container1 .card .content {
+    position: relative;
+    width: 50%;
+    left: 20%;
+    opacity: 0;
+    
+    transition: 1s;
+    margin-left: 20px;
+    margin-top: 85px;
+    width: 250px;
+    height: 250px;
+}
+.container1 .card:hover .content{
+    left:2%;
+    opacity: 1;
+}
+.container1 .card .content h2{
+    color: white;
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 2.2em;
+    line-height: 1em;
+    font-size: 18px;
+    color: blue;
+    filter: drop-shadow(0 0 10px rgb(176, 176, 236));
+    }
+.container1 .card .content pre {
+    color: white;
+    font-size: 12px;
+    margin-top: 10px;
+    width: 180px;
+    margin-left: -65px;
+}
+.mama{
+    color: gold;
+    filter: drop-shadow(0 0 10px rgb(176, 176, 236));
+    font-size: 18;
+    font-weight: bold;
+}
+.container1 .card .content a {
+    position: relative;
+    color:black;
+    background-color: white;
+    display: inline-block;
+    padding: 5px 10px;
+    align-items: center;
+    text-decoration: none;
+
+    font-weight: 700;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.media-info1 ul{
+    width: 180px;
+    padding: 20px;
+    font-weight:bold;
+    color: rgb(10, 44, 100);
+    margin-left: -30px;
+}
+.media-info1 ul:nth-child(2){
+    padding-left: 50px;  
+}
+
+
+
+.last-part{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 800px;
+    height: 200px;
+    border-radius: 120px;
+    background-color: yellow;
+    position: relative;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media(max-width:800px){
+    .last-part{
+        height: 100%;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: 0;
+        flex-direction: column;
+        flex: 100%;
+        border-radius: 40px;
+    }
+}
+.gyutoro{
+    flex: 1;
+   margin-top:-28px ;
+   margin-left: 100px;
+}
+
+.gyutoro img{
+    width: 169.5px;
+    height: 233px; 
+}
+.gyu-text{
+    flex: 1;
+    width: 400px;
+}
+
+
+.last-page{
+    height: 300px;
+}
+.icon-div{
+    margin-top: 30px;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    border-radius: 50px;
+}
+@media(max-width:800px){
+    .icon-div{
+        width: 100%;
+        flex: 100%;
+        margin-left: 0px;
+    }
+}
+.icon1,.icon{
+    flex: 1;
+    padding-right: 40px;
+    font-size: 20px;
+}
+.final{
+    height: 250px;
+}
